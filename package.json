@@ -1,0 +1,38 @@
+{
+  "name": "apply-colormap",
+  "version": "0.0.0",
+  "description": "Applies a colormap to an ndarray",
+  "main": "apply-color-map.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "colormap": "~0.3.7",
+    "cwise": "~0.4.0",
+    "ndarray": "~1.0.10",
+    "ndarray-ops": "~1.2.1",
+  },
+  "devDependencies": {
+    "zeros": "~0.0.0",
+    "ndarray-fill": "~0.1.0",
+    "ndarray-imshow": "~0.0.1"    
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/apply-colormap.git"
+  },
+  "keywords": [
+    "colorize",
+    "ndarray",
+    "colormpa"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikolalysenko/apply-colormap/issues"
+  },
+  "homepage": "https://github.com/mikolalysenko/apply-colormap"
+}
