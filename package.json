@@ -10,7 +10,7 @@
     "colormap": "~0.3.7",
     "cwise": "~0.4.0",
     "ndarray": "~1.0.10",
-    "ndarray-ops": "~1.2.1",
+    "ndarray-ops": "~1.2.1"
   },
   "devDependencies": {
     "zeros": "~0.0.0",
