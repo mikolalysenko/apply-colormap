@@ -1,6 +1,6 @@
 {
   "name": "apply-colormap",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Applies a colormap to an ndarray",
   "main": "apply-color-map.js",
   "directories": {
@@ -8,9 +8,9 @@
   },
   "dependencies": {
     "colormap": "~0.3.7",
-    "cwise": "~0.4.0",
-    "ndarray": "~1.0.10",
-    "ndarray-ops": "~1.2.1"
+    "cwise": "^1.0.0",
+    "ndarray": "^1.0.13",
+    "ndarray-ops": "^1.2.1"
   },
   "devDependencies": {
     "zeros": "~0.0.0",
@@ -34,5 +34,8 @@
   "bugs": {
     "url": "https://github.com/mikolalysenko/apply-colormap/issues"
   },
-  "homepage": "https://github.com/mikolalysenko/apply-colormap"
+  "homepage": "https://github.com/mikolalysenko/apply-colormap",
+  "browserify": {
+    "transform": ["cwise"]
+  }
 }
