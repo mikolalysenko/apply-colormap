@@ -1,6 +1,6 @@
 {
   "name": "apply-colormap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Applies a colormap to an ndarray",
   "main": "apply-color-map.js",
   "directories": {
